@@ -25,7 +25,7 @@ export const GET_RIDER = gql`
 `;
 
 export const GET_RIDERS = gql`
-  query GetRidersById {
+  query GetRiders {
     riders {
       first_name
       id
